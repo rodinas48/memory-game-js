@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/all.css">
+  <title>Memory game</title>
+</head>
+
+<body>
+  <div class="container">
+    <button class="startGame ">Start Game</button>
+    <div class="gameWrapper hide"> 
+      <div class="topBar">
+        <div class="movesNumber">
+          <p>Number of Moves : <span id="countMoves">0</span></p>
+        </div>
+        <div class="timer"> <i class="far fa-hourglass"></i> <span id="timer">00:00</span></div>
+        <button class="endGame">Stop Game</button>
+      </div>
+      <div class="game">
+      </div>
+
+    </div>
+    <div class="resultContainer hide">
+      <p>You Win!!</p>
+      <p id="result">Moves : <span>0</span></p>
+      <button class="startGame">Start New Game</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
